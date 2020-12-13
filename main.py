@@ -1,4 +1,4 @@
-#Made by Joseph Li, to help you index your instagram messages. TO do so, request data from instagram and download
+#Made by Joseph Li, to help you index your instagram messages. To do so, request data from instagram and download
 #the file. Unzip the file, and find the path to the inbox folder. Post that in rootdir and you're good to go!
 import os
 import linecache
@@ -61,3 +61,4 @@ with open("instances.txt","a") as f:
     for item in hasimages:
         f.write("%s\n" % item)
     f.write("number of appearances" + str(appearances))
+print("Job done! Check the instances.txt file")
